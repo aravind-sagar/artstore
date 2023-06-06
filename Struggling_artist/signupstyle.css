@@ -1,0 +1,121 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #dde5f4;
+  height: 100vh;
+}
+
+nav {
+  width: 100%;
+  background-color: #d5eab3;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.container {
+  background: #dde5f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 100vh;
+}
+
+.header {
+  background-color: #d5eab3;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_links li {
+  margin-right: 20px;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav_links li a:hover {
+  color: #888;
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+  align-items: center;
+}
+
+.screen-1 .logo img {
+  max-width: 200px;
+}
+
+.screen-1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.screen-1 ion-icon {
+  font-size: 24px;
+  color: #888;
+}
+
+.screen-1 input {
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.signup-button {
+  padding: 0.5em 2em;
+  border-radius: 30px;
+  background-color: #d5eab3;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #c2db8f;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    max-width: 800px;
+  }
+}

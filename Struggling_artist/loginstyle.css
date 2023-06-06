@@ -1,0 +1,132 @@
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #dde5f4;
+  height: 100vh;
+}
+
+header.header {
+  background-color: #d5eab3;
+  padding: 20px;
+  width: 100%;
+  position: fixed; /* Set the header to a fixed position */
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+nav {
+  width: 100%;
+  background-color: #d5eab3;
+}
+
+.container {
+  background: #dde5f4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 80px; /* Adjust the top margin as needed */
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_links li {
+  margin-right: 20px;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav_links li a:hover {
+  color: #888;
+}
+
+.screen-1 {
+  background: #f1f7fe;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 2em;
+  align-items: center;
+}
+
+.screen-1 .logo img {
+  width: 50%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.screen-1 .email,
+.screen-1 .password {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+}
+
+.screen-1 .email input,
+.screen-1 .password input {
+  border: none;
+  outline: none;
+  font-size: 0.9em;
+  padding: 0.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.screen-1 .email ion-icon,
+.screen-1 .password ion-icon {
+  color: #4d4d4d;
+  margin-bottom: -0.2em;
+}
+
+.screen-1 .login-button {
+  background: #d5eab3;
+  box-shadow: 0 0 2em #e6e9f9;
+  border: none;
+  color: #4d4d4d;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 0.8em;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.screen-1 .login-button:hover {
+  background: #c3e39f;
+}
+
+.screen-1 .login-button:active {
+  background: #b2d88f;
+}

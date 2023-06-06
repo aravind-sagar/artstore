@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Art Gallerie</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="HomePage.html"><img src ="C:\Users\harma\Downloads\LOGO.jpg" width="50%" height="50%" transition: transform 0.5s;></a>
+                </div>
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="HomePage.html" style="text-decoration: none">HOME</a></li>
+                        <li><a href="Gallerie.html" style="text-decoration: none">GALLERIE</a></li>
+                        <li><a href="About.html" style="text-decoration: none">ABOUT</a></li>
+                        <li><a href="#" style="text-decoration: none">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                
+            </header>
+                <a href="cart.html"><img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\carttt.png"width="30px" height="30"></a>
+            </div> 
+            </div>
+        </div>
+    </div>  
+     <br><br><br>
+
+<!-------- All Products -------->
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Welcome To The Gallerie</h2>
+        <select >
+            <option value>Default</option>
+            <option value>Sort by Price</option>
+            <option value>Sort by Popularity </option>
+            <option value>Sort by Artist</option>
+            <option value>Sort by Collection </option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <a href="Hope.html"><img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\eye.jpg" width="700" height="330"></a>
+            <h4>Hope</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Realism.jpeg" width="700" height="330">
+            <h4>Realism</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Women power.jpg" width="700" height="330">
+            <h4>Women Power</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\The Origins.jpg" width="700" height="330">
+            <h4>The Origin</h4>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Encaustic.jpg" width="700" height="330">
+            <h4>Encaustic</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Fresco.jpg" width="700" height="330">
+            <h4>Fresco</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Violin.jpg" width="700" height="330">
+            <h4>Violin</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Radha Krishna.jpg" width="700" height="330">
+            <h4>Radha Krishna</h4>
+        </div>    
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Digital.png" width="700" height="330">
+            <h4>Digital</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Mind Abstractt.png" height="330">
+            <h4>Mind Abstract</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Reflection.jpg" width="700" height="330">
+            <h4>Reflection</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\face.jpg" width="700" height="330">
+            <h4>Mask</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Brain dead.jpg" width="700" height="330">
+            <h4>Brain Dead</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Simple life.webp" width="700" height="330">
+            <h4>Simple Life</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\POV.jpg" width="700" height="330">
+            <h4>Perspective</h4>
+        </div>
+        <div class="col-4">
+            <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Green leaves.jpg" width="700" height="330">
+            <h4>Green Leaves</h4>
+        </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div> 
+
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: larger;
+          font-style: oblique;
+          font-stretch: expanded;
+          background: rgb(125, 237, 168);
+          border: solid 1px #5e5d55;
+          border-width: 1mm;
+        }
+        
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <div id="flip">CLICK HERE FOR A SURPRISE!!</div>
+        <div id="panel">25% OFF on your FIRST ORDER!!</div>
+        
+        </body>
+        </html>
+        
+    
+</div>
+<!--------- footer---------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <h5>Download App for Android and Ios Mobile Phone</h5>
+                <div class="app-logo">
+                    <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\Playstore logo.webp" >;
+                    <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\applestore logo.webp" >
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="C:\Users\harma\OneDrive\Desktop\Art Gallery website\Images\LOGO.jpg" >
+                <p>Art Gallerie</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023</p>
+    </div>   
+</div>
+</body>
+</html>
